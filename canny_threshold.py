@@ -10,7 +10,7 @@ import cv2 as cv
 
 def main():
     
-    """this code apply canny edge detection and threshold on image """
+    """ This code apply canny edge detection and threshold on image """
     
     image_city = cv.imread('sample_inputs/city.jpg')
 
