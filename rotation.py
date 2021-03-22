@@ -10,7 +10,7 @@ import cv2 as cv
 
 def rotation(image, angle, rotation_point = None):
     """
-    this function will rotate your image according to the angle and reference point (rotation_point)
+    This function will rotate your image according to the angle and reference point (rotation_point)
     If the rotation point (rotation_point) is not specified, the value is assigned according to the width and height.
     """
     height, width = image.shape[:2]
