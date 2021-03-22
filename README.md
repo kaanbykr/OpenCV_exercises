@@ -30,12 +30,19 @@ Make sure that the new images must be the same as the names in code files.
 ## Code Files
 
 ### `bitwise_operations.py`
+This code allows us to combine the 2 pictures with the bitwise method
 ### `canny_threshold.py`
+This code apply canny edge detection and threshold on image
 ### `data_visualization.py`
+This code apply blur operations and visualization the images using matplotlib library
 ### `drawing_rectangle.py`
+This code allow to draw rectangle on image
 ### `filtering_blurring.py`
+This code resizes and blurring your image
 ### `rotation.py`
+This code rotate your image according to the angle and reference point
 ### `template_matching.py`
+With this code, the location of the template in the original image can be detected.
 
 
 ## Road Map 
