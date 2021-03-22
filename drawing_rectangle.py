@@ -34,7 +34,7 @@ def main():
     
     """  
         cv.rectangle function allow to draw rectangle on image 
-        cv.putText function allow to write rectangle on image 
+        cv.putText function allow to write  on image 
     """
     
     cv.rectangle(resized_image, (450 , 100), (700, 400), (0, 255, 0), thickness=2)  
