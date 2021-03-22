@@ -9,7 +9,7 @@ import cv2 as cv
     
 def resize_image(image, height, width):
     
-    # This function resizes your image using the height and width variables. 
+    # This function resizes input image using the height and width variables. 
     
     return cv.resize(image, (height, width), interpolation = cv.INTER_CUBIC)
 
@@ -21,7 +21,7 @@ def color_transform(image):
 
 def threshold(image, threshold_value):
     
-    # This function converts your image into a binary image based on the threshold value.    
+    # This function converts input image into a binary image based on the threshold value.    
 
     return cv.threshold(image, threshold_value, 255, cv.THRESH_BINARY)
 
